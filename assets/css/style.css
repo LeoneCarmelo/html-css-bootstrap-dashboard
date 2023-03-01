@@ -2,25 +2,50 @@
 :root {
     --heade-content: #1b72e8;
     --bg-content:#f8f9fa;
+    --sidebar:#051e34;
 }
 /* region Colors */
 
+/* #region Debug */
 .debug .top {
-    height: 50px;
     background-color: green;
 }
 
 .debug .bottom {
-    height:calc(100vh - 50px);
     background-color: aqua;
 }
+/* #endregion Debug */
 
-.debug .sidebar {
+/* #region Top */
+.top {
+    height: 50px;
+}
+/* #endregion Top */
+
+/* #region Bottom */
+.bottom {
+    height:calc(100vh - 50px);
+}
+/* #region Sidebar */
+.sidebar {
     width:150px;
     height:calc(100vh - 50px);
-    background-color: black;
+    background-image: url('../img/sidebar-bg.png');
+    background-size: cover;
+    background-color: var(--sidebar);
 }
 
-.debug .content {
+.sidebar ul {
+    list-style: none;
+}
+/* #endregion Sidebar */
+
+/* #region Content */
+
+/* #endregion Content */
+.content {
     width: calc(100% - 150px);
 }
+
+
+/* #region Bottom */
