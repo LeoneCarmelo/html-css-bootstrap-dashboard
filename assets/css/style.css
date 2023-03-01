@@ -3,6 +3,7 @@
     --header-content: #1b72e8;
     --bg-content:#f8f9fa;
     --sidebar:#051e34;
+    --title-list: #f6f6f6;
 }
 /* region Colors */
 body {
@@ -10,6 +11,10 @@ body {
 }
 /* #region Debug */
 /* #endregion Debug */
+
+
+/* Utilities */
+
 
 /* #region Top */
 .top {
@@ -40,6 +45,7 @@ body {
     background-image: url('../img/sidebar-bg.png');
     background-size: cover;
     background-color: var(--sidebar);
+    --title-list: #f7f7f7;
 }
 
 .sidebar ul {
@@ -56,11 +62,21 @@ body {
     overflow-y: scroll;
 }
 
-.content > .container {
+.content > .blue {
     background-color: var(--header-content);
 }
 
+.bg_color_list_title {
+    background-color: var(--title-list);
+}
 
+.avatar {
+    width:20px;
+}
+
+.icon {
+    color: gray;
+}
 /* #endregion Bottom */
 
 /* #region Responsive */
