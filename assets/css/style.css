@@ -5,3 +5,22 @@
 }
 /* region Colors */
 
+.debug .top {
+    height: 50px;
+    background-color: green;
+}
+
+.debug .bottom {
+    height:calc(100vh - 50px);
+    background-color: aqua;
+}
+
+.debug .sidebar {
+    width:150px;
+    height:calc(100vh - 50px);
+    background-color: black;
+}
+
+.debug .content {
+    width: calc(100% - 150px);
+}
