@@ -1,24 +1,20 @@
 /* region Colors */
 :root {
-    --heade-content: #1b72e8;
+    --header-content: #1b72e8;
     --bg-content:#f8f9fa;
     --sidebar:#051e34;
 }
 /* region Colors */
-
+body {
+    max-height: 100vh;
+    overflow: hidden;
+}
 /* #region Debug */
-.debug .top {
-    background-color: green;
-}
-
-.debug .bottom {
-    background-color: aqua;
-}
 /* #endregion Debug */
 
 /* #region Top */
 .top {
-    height: 50px;
+    height: 56px;
 }
 
 .logo {
@@ -36,12 +32,12 @@
 
 /* #region Bottom */
 .bottom {
-    height:calc(100vh - 50px);
+    height:calc(100vh - 56px); 
 }
 /* #region Sidebar */
 .sidebar {
     width:150px;
-    height:calc(100vh - 50px);
+    height:calc(100vh - 56px);
     background-image: url('../img/sidebar-bg.png');
     background-size: cover;
     background-color: var(--sidebar);
@@ -56,11 +52,13 @@
 
 /* #endregion Content */
 .content {
-    width: calc(100% - 150px);
+    width:100%;
+    height: calc(100vh - 56px);
+    overflow-y: scroll;
 }
 
 
-/* #region Bottom */
+/* #endregion Bottom */
 
 /* #region Responsive */
 
