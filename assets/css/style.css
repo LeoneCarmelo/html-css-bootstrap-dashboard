@@ -7,7 +7,6 @@
 /* region Colors */
 body {
     max-height: 100vh;
-    overflow: hidden;
 }
 /* #region Debug */
 /* #endregion Debug */
@@ -52,9 +51,13 @@ body {
 
 /* #endregion Content */
 .content {
-    width:100%;
+    width:calc(100% - 150px);
     height: calc(100vh - 56px);
     overflow-y: scroll;
+}
+
+.content > .container {
+    background-color: var(--header-content);
 }
 
 
