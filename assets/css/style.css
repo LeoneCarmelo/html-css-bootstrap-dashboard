@@ -23,6 +23,10 @@ body {
     font-size: 10px;
 }
 
+.fs_13 {
+    font-size: 13px;
+}
+
 /* #region Top */
 .top {
     height: 56px;
@@ -91,8 +95,17 @@ body {
 .dynamic_data {
     display: none;
 }
+
 .avatar {
     width:20px;
+}
+
+.avatar + span {
+    font-weight:normal;
+}
+
+.table th {
+    font-weight: normal;
 }
 
 .icon {
