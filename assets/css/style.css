@@ -134,16 +134,6 @@ body {
         display:none;
     }   
     
-    .sidebar {
-        width:150px;
-        height:calc(100vh - 56px);
-    }
-    .content {
-        width:calc(100% - 150px);
-    }
-
- 
-
 }
 
 @media screen and (min-width:628px) {
@@ -153,6 +143,17 @@ body {
 
     #offcanvasRight {
         width:50%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .sidebar {
+        width:150px;
+        height:calc(100vh - 56px);
+    }
+
+    .content {
+        width:calc(100% - 150px);
     }
 }
 /* #region Responsive */
