@@ -5,6 +5,7 @@
     --sidebar:#051e34;
     --title-list: #f6f6f6;
     --bg-badge: #165bba;
+    --bg-input: #e5e5e5;
 }
 /* region Colors */
 body {
@@ -30,6 +31,17 @@ body {
 /* #region Top */
 .top {
     height: 56px;
+    position:relative;
+    z-index:1;
+}
+
+.top .container-fluid {
+    height:56px;
+    align-items: center;
+}
+
+.top form input {
+    background-color: var(--bg-input);
 }
 
 .logo {
