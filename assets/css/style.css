@@ -82,6 +82,8 @@ body {
     background-color: var(--bg-badge);
 }
 
+
+
 .bg_color_list_title {
     background-color: var(--title-list);
 }
@@ -95,6 +97,10 @@ body {
 
 .icon {
     color: gray;
+}
+
+#offcanvasRight {
+    width:100%;
 }
 
 
@@ -121,13 +127,19 @@ body {
     }
     .content {
         width:calc(100% - 150px);
-
     }
+
+ 
+
 }
 
 @media screen and (min-width:628px) {
     .dynamic_data {
         display: table-cell;
+    }
+
+    #offcanvasRight {
+        width:50%;
     }
 }
 /* #region Responsive */
