@@ -14,7 +14,13 @@ body {
 
 
 /* Utilities */
+.fs_9 {
+    font-size: 9px;
+}
 
+.fs_10 {
+    font-size: 10px;
+}
 
 /* #region Top */
 .top {
@@ -77,6 +83,8 @@ body {
 .icon {
     color: gray;
 }
+
+
 /* #endregion Bottom */
 
 /* #region Responsive */
