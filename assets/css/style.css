@@ -4,6 +4,7 @@
     --bg-content:#f8f9fa;
     --sidebar:#051e34;
     --title-list: #f6f6f6;
+    --bg-badge: #165bba;
 }
 /* region Colors */
 body {
@@ -70,6 +71,10 @@ body {
 
 .content > .blue {
     background-color: var(--header-content);
+}
+
+.bg_badge {
+    background-color: var(--bg-badge);
 }
 
 .bg_color_list_title {
