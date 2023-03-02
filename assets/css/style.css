@@ -47,7 +47,7 @@ body {
 }
 /* #region Sidebar */
 .sidebar {
-    width:150px;
+    width:60px;
     height:calc(100vh - 56px);
     background-image: url('../img/sidebar-bg.png');
     background-size: cover;
@@ -64,7 +64,7 @@ body {
 
 /* #endregion Content */
 .content {
-    width:calc(100% - 150px);
+    width:calc(100% - 60px);
     height: calc(100vh - 56px);
     overflow-y: scroll;
 }
@@ -105,7 +105,16 @@ body {
 
     .logo img:last-child {
         display:none;
-    }    
+    }   
+    
+    .sidebar {
+        width:150px;
+        height:calc(100vh - 56px);
+    }
+    .content {
+        width:calc(100% - 150px);
+
+    }
 }
 /* #region Responsive */
 
