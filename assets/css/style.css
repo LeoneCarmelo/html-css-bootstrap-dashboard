@@ -6,6 +6,7 @@
     --title-list: #f6f6f6;
     --bg-badge: #165bba;
     --bg-input: #e5e5e5;
+    --bg-bell: #ff8f00;
 }
 /* region Colors */
 body {
@@ -53,7 +54,7 @@ body {
 }
 
 .fa-bell {
-    color: gold;
+    color: var(--bg-bell);
 }
 /* #endregion Top */
 
