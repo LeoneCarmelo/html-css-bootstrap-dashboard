@@ -41,8 +41,16 @@ body {
     align-items: center;
 }
 
+.top > nav {
+    height:56px;
+}
+
 .top form input {
     background-color: var(--bg-input);
+}
+
+.dropstart .dropdown-menu[data-bs-popper] {
+    top:47px;
 }
 
 .logo {
